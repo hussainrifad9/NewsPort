@@ -1,0 +1,14 @@
+.page-title {
+    font-family: serif;
+}
+.list-style{
+    color: rgb(75, 147, 123);
+    font-size: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.div-style{
+    border: 1px solid gray;
+    padding: 5px;
+    box-shadow: 2px 2;
+}

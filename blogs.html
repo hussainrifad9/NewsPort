@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Blog</title>
+
+</head>
+<body class="mx-auto container">
+    <section class="bg-slate-100 p-3 m-5 shadow-2xl border rounded text-blue-900">
+        <H6 class="font-semibold text-xl my-3">What is the difference between let var and const in javascript ?</H6>
+        <p class="font-semibold text-sm">
+            The differences between var, let, and const variable declaration in JavaScript include:
+Variables declared with var and const are scoped to the immediate function body.
+Variables declared with the var keyword are hoisted. Hoisting means that the variable can be accessed in their enclosing scope even before they are declared.
+Variables declared with the let keyword are block-scoped, which means the variables will have scope to the immediate enclosing block.
+        </p>
+    </section>
+
+    <section class="bg-slate-100 p-3 m-5 shadow-2xl border rounded text-blue-900">
+        <H6 class="font-semibold text-xl my-3">What are the differences between arrow functions and regular functions in JavaScript?
+        </H6>
+        <p class="font-semibold text-sm">
+            Regular functions created using function declarations or expressions are ‘constructible’ and ‘callable’. Since regular functions are constructible, they can be called using the ‘new’ keyword. However, the arrow functions are only ‘callable’ and not constructible. Thus, we will get a run-time error on trying to construct a non-constructible arrow functions using the new keyword.
+        </p>
+    </section>
+
+    <section class="bg-slate-100 p-3 m-5 shadow-2xl border rounded text-blue-900">
+        <H6 class="font-semibold text-xl my-3">Why should we use template string ?
+        </H6>
+        <p class="font-semibold text-sm">
+            Template strings are a powerful feature of modern JavaScript released in ES6. It lets us insert/interpolate variables and expressions into strings without needing to concatenate like in older versions of JavaScript. It allows us to create strings that are complex and contain dynamic elements. Another great thing that comes with template strings are tags. Tags are functions that take a string and the decomposed parts of the string as parameters and are great for converting strings to different entities.
+        </p>
+    </section>
+    
+</body>
+</html>

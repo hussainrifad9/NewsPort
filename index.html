@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="mn.css">
+    <title>Morning News</title>
+</head>
+<body class="bg-teal-100">
+
+
+    <!-- Header Section -->
+
+    <header class="container mx-auto ">
+        <nav class="px-2 mt-7">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <a href="#" class="flex items-center">
+                    <h2 class="page-title"><span class="rounded-lg border p-2 px-3 text-xl  text-white bg-blue-600" >Morning</span> <span class="py-2 text-xl font-semibold text-blue-700">News </span></h2>
+                </a>
+            <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+                <ul class="flex justify-center items-center text-slate-500">
+                    <li class="font-semibold text-lg mr-4 hover:text-blue-900 "><button>News</button></li>
+                    <li class="font-semibold text-lg mr-4 hover:text-blue-900 "><button id="blogButton">Blogs</button></li>
+                    <img class="rounded-full" src="images/Avatar.jpg" alt="">
+                </ul>
+            </div>
+            </div>
+        </nav>
+  
+    </header>
+
+    <!-- HR tag used     -->
+    
+    <hr class="my-7 border border-slate-600	">
+
+    <!-- Categories  -->
+    <main class="container mx-auto bg-teal-100	">
+    <section >
+        <ul id="categoriesList" class="flex justify-between">
+            
+        </ul>
+    </section>
+
+    <!-- Search Result in number  -->
+
+    <h2 id="resultcount" class="my-5 bg-white border p-4 text-lg text-slate-400 "> Result found </h2>
+
+    <!-- Sort and Today's Pick  -->
+
+    <section class="flex justify-between">
+        <div>
+        <span class="font-semibold text-xl">Sort By Views :</span>
+        <input class=" ml-2 rounded h-9" placeholder="  Default" type="text">
+        </div>
+        <div>
+            <button class="px-3 py-2 border rounded-lg bg-blue-600 text-slate-200 text-xl">Today's Pick</button>
+            <button class="px-3 py-2 border rounded-lg border-blue-600 text-xl text-purple-900">Trending</button>
+        </div>
+    </section>
+
+    <!---- News ---->
+
+    <section id="news" class="">
+
+    </section>
+</main>
+
+    <!-- Footer  -->
+
+    <Footer class=" pt-1 h-20 bg-white">
+        <h6 class=" mt-10 text-slate-600 text-sm text-center">Copyright 2021 Morning News</h6>
+    </Footer>
+
+
+    <script src="mn.js"></script>
+</body>
+</html>
